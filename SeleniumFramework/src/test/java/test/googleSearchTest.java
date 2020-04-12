@@ -36,6 +36,6 @@ public class googleSearchTest {
 		
 		WebElement searchButton = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']"));
 		searchButton.click();
-		//driver.close();
+		driver.close();
 	}
 }
