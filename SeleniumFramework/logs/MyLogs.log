@@ -1,0 +1,4 @@
+[INFO ] 2020-04-04 02:22:45.566 [main] Log - This is info message
+[ERROR] 2020-04-04 02:22:45.570 [main] Log - This is error message
+[WARN ] 2020-04-04 02:22:45.570 [main] Log - This is warn message
+[FATAL] 2020-04-04 02:22:45.570 [main] Log - This is fatal message
