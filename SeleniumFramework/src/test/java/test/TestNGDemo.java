@@ -64,16 +64,16 @@ public class TestNGDemo {
 	public void googleSearch() {
 
 		driver.get("https://google.com");
-		/*
+		
 		WebElement textBox = driver.findElement(By.xpath("//input[@name='q']"));
-		List<WebElement> listOfInputElements = driver.findElements(By.xpath("//input"));
-		int count=listOfInputElements.size();
-		System.out.println("count is: "+ count);
+		//List<WebElement> listOfInputElements = driver.findElements(By.xpath("//input"));
+		//int count=listOfInputElements.size();
+		//System.out.println("count is: "+ count);
 		textBox.sendKeys("test");
 
 		WebElement searchButton = driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']"));
 		searchButton.click();
-		 */
+		
 
 
 	}
