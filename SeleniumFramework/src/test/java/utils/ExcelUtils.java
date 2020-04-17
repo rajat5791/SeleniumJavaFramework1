@@ -41,13 +41,13 @@ public class ExcelUtils {
 	public static String getCellDataString(int rowNum, int colNum) {
 		String cellData = null;
 		cellData = sheet.getRow(rowNum).getCell(colNum ).getStringCellValue();
-		//System.out.println(cellData);
+		System.out.println(cellData);
 		return cellData;
 
 	}
 
 	public static void getCellDataNumber(int rowNum, int colNum) {
-		Double cellData = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
+		double cellData = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
 		System.out.println(cellData);
 
 	}

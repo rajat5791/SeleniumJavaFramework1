@@ -39,7 +39,7 @@ public class ExcelDataProvider {
 
 	@DataProvider(name = "test1data")
 	public Object[] getData() {
-		String excelPath = "/Users/rajat/Documents/workspace/SeleniumFramework/excel/data.xlsx";
+		String excelPath = "/Users/rajat/Documents/SD Auto/Rajat Frameowrk/SeleniumFramework/excel/data.xlsx";
 		Object data[] = testData(excelPath,"Sheet1"); 
 
 		return data;

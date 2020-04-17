@@ -26,7 +26,7 @@ public class googleSearchPageTest {
 		searchPageObj.openGoogle();
 		searchPageObj.setTextInSearchBox("demo");
 		searchPageObj.clickSearchButton();
-		//driver.close();
+		driver.close();
 	}
 	
 

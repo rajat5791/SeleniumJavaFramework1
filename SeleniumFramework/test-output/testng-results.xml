@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4553" started-at="2020-04-15T01:39:45 IST" finished-at="2020-04-15T01:39:49 IST">
+  <suite name="Default suite" duration-ms="26061" started-at="2020-04-17T02:02:40 IST" finished-at="2020-04-17T02:03:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4553" started-at="2020-04-15T01:39:45 IST" finished-at="2020-04-15T01:39:49 IST">
-      <class name="test.TestNGDemo">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:test.TestNGDemo@1e178745]" name="setupTest" is-config="true" duration-ms="1230" started-at="2020-04-15T01:39:45 IST" finished-at="2020-04-15T01:39:46 IST">
+    <test name="Default test" duration-ms="26061" started-at="2020-04-17T02:02:40 IST" finished-at="2020-04-17T02:03:07 IST">
+      <class name="utils.ExcelDataProvider">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:utils.ExcelDataProvider@6895a785]" name="setupTest" is-config="true" duration-ms="1213" started-at="2020-04-17T02:02:40 IST" finished-at="2020-04-17T02:02:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNGDemo@1e178745]" name="googleSearch" duration-ms="3171" started-at="2020-04-15T01:39:46 IST" finished-at="2020-04-15T01:39:49 IST">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@6895a785]" name="test1" duration-ms="9673" started-at="2020-04-17T02:02:42 IST" data-provider="test1data" finished-at="2020-04-17T02:02:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNGDemo@1e178745]" name="tearDownTest" is-config="true" duration-ms="113" started-at="2020-04-15T01:39:49 IST" finished-at="2020-04-15T01:39:49 IST">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@6895a785]" name="test1" duration-ms="7824" started-at="2020-04-17T02:02:52 IST" data-provider="test1data" finished-at="2020-04-17T02:03:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNGDemo -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@6895a785]" name="test1" duration-ms="6860" started-at="2020-04-17T02:03:00 IST" data-provider="test1data" finished-at="2020-04-17T02:03:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- utils.ExcelDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
